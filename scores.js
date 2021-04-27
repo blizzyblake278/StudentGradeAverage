@@ -36,7 +36,7 @@ $(document).ready(function() {
                 alert("Must enter last name")
             } else {
                 students.push(data)
-                scores.push($('#score').val())
+                scores.push(parseFloat($('#score').val()))
             }
         }
         // write code to call the displayScores function above
